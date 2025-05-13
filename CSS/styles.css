@@ -1,33 +1,32 @@
-header{
-    background-color: #b34d4d;
+header {
+    background-color: #000080;
     color: white;
     padding: 30px;
     text-align: center;
 }
 
-body{
+body {
     background-color: #f1f1f1;
     font-family: Arial, sans-serif;
     font-size: 20px;
     margin: 0;
-
 }
 
-h1{
+h1 {
     color: #333;
-    text-wrap: normal;
     font-size: 50px;
     text-align: center;
+    word-wrap: break-word;  /* Allow wrapping of long text */
 }
 
-p{
+p {
     color: #555;
     text-align: center;
 }
 
-footer{
-    background-color: #b34d4d;
-    color: black;
+footer {
+    background-color: #000080;
+    color: white;  /* Changed to white for better contrast */
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;

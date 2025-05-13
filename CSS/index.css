@@ -1,17 +1,23 @@
 .center {
+    background-color: #bebebe;
     display: flex;
     justify-content: center;  
     align-items: center;     
-    height: 100vh;           S
     padding: 20px;
     box-sizing: border-box;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    width: 40%; /* Fixed width for the box */
+    margin: 0 auto; /* Center the box horizontally */
+    margin-top: 250px; /* Margin from the top */
+    margin-bottom: 250px; /* Margin from the bottom */
 }
 
 .profile-pic {
     height: 400px;
     width: 400px;
     border: #333 solid 2px;
-    border-radius: 10px;
+    border-radius: 50%; /* Makes it a perfect circle */
     margin-right: 40px;
 }
 
