@@ -1,0 +1,29 @@
+.center {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;           S
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    height: 400px;
+    width: 400px;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text p {
+    color: #555;
+}
