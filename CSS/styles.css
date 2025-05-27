@@ -3,6 +3,9 @@ header {
     color: white;
     padding: 30px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body {
@@ -16,7 +19,7 @@ h1 {
     color: #333;
     font-size: 50px;
     text-align: center;
-    word-wrap: break-word;  /* Allow wrapping of long text */
+    word-wrap: break-word;
 }
 
 p {
@@ -26,11 +29,34 @@ p {
 
 footer {
     background-color: #8b2e2e;
-    color: white;  /* Changed to white for better contrast */
+    color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+header h1, footer h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+a {
+    background-color: wheat;
+    color: black;
+    border: black solid 2px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s, text-decoration 0.2s;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    background-color: #b34747;
+    color: white;
+    text-decoration: underline;
 }
